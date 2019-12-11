@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+
+public class stringinput {
+      public static void main(String[] args) {
+     String a;
+     int i;
+     Scanner xm=new Scanner(System.in);
+     System.out.println(" enter string input");
+     for(i=1;i<=10;i++)
+     {
+     a=xm.nextLine();
+     System.out.println(i+". "+a);
+      
+      }
+}
+}
